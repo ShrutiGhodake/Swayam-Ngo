@@ -227,7 +227,7 @@
   height: 100%; 
   /* Center and scale the image nicely */
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .overlay {
@@ -263,7 +263,8 @@ q:hover {
 
 #what {
 filter:contrast(150%);
-color:#12a39a;
+color:white;
+background-color:#12a39a;
 }
 
 #myFooter{
