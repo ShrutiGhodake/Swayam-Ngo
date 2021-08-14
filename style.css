@@ -227,7 +227,17 @@
   height: 100%; 
   /* Center and scale the image nicely */
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
+}
+
+.bg1 {
+  /* The image used */
+  background-image: url("what2.png");
+/* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
 }
 
 .overlay {
