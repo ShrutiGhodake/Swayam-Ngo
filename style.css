@@ -460,7 +460,7 @@ background-color: #12a39a;
 
 .contact .info {
   padding: 20px 40px;
-  background: linear-gradient(-135deg, rgba(30, 88, 146, 0.795), #5acee2);  color: #131313;
+  background: linear-gradient(-135deg ,#12a39a,rgba(30, 88, 146, 0.795));  color: #131313;
   text-align: center;
   border: 1px solid #fff;
 }
