@@ -357,7 +357,7 @@
      <div data-aos="fade-left"
      data-aos-duration="3000">
         <div class="col-lg-6">
-        <form>
+        <form id="form" method="POST" name="contact-form">
           <div class="form-group">
             <input placeholder="Your Name" type="text" name="name" 
             class="form-control" required>
@@ -497,4 +497,12 @@
 <!-- Footer -->
 
 </body>
+    <script>
+        var form= document.getElementById('form');
+        form.addEventListener('submit',function(e){
+            e.preventDefault()
+            alert("Message submitted Successfully!!");
+            document.contact-form.reset();  
+    })
+    </script>
 </html>
