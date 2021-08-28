@@ -124,6 +124,11 @@ h2:after {
 	
 }
 
+@media (max-width: 600px) {
+     .blocku { 
+	display: none;
+    }
+}
 /*About Us section starts*/
 
 .aboutus{
