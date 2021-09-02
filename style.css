@@ -270,26 +270,18 @@ font-weight: 600;
   background-color: #fdfdfa;
 }
 /*About Us section ends*/
-.bg {
-  /* The image used */
-  background-image: url("what.png");
-/* Full height */
-  height: 100%; 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-size: cover;
-}
-
 
 .logo {
   padding: 50px;
   transition: transform .2s; /* Animation */
   margin: 0 auto;
 }
-
 .logo:hover {
 	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
+/*What we do starts*/
 .overlay {
   position: absolute; 
   bottom: 0; 
@@ -307,17 +299,16 @@ font-weight: 600;
 .col-sm-3:hover .overlay {
   opacity: 1;
 }
-
-
 #what .row {
-
-font-size: 16px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
  color: #131313;
 }
+/*What we do ends*/
 
+/*Footer starts*/
 #myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
@@ -426,16 +417,18 @@ font-size: 16px;
         text-align: center;
     }
 }
+/*Footer ends*/
 
+/*Modal Form danate starts*/
 .modal {
-background : url("bg (2).jpg")no-repeat;
-background-size: cover;
-
+	background : url("bg (2).jpg")no-repeat;
+	background-size: cover;
 }
+/*Donate ends*/
+
+/*Contact section starts*/
 .contact .info {
-	
   transition: transform .2s; /* Animation */
- 
   padding: 20px 40px;
   background: #eeeeee;  
   color: #131313;
@@ -455,7 +448,6 @@ font-weight: 600;
   color: #0a235a;
   margin-bottom: 15px;
 }
-
 .contact .info h4 {
   padding: 0;
   margin: 0 0 10px 0;
@@ -464,11 +456,9 @@ font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
-
 .contact .info p {
   font-size: 15px;
 }
-
 .rounded-cor{
   border-radius: 50px;
   color: rgb(8, 38, 71);
@@ -477,5 +467,5 @@ font-weight: 600;
 {
   color: #001a66;
 }
-
+/*Contact Ends*/
 
